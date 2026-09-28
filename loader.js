@@ -1,4 +1,8 @@
 (async function () {
+  // Register the service worker straight from the loader so the app is installable
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js').catch(function () {});
+  }
   const KEY_B64 = "k8YN+5NGTPcTH12iKP8D98UPEt060zbyKcGv17Xvcik=";
   try {
     const res = await fetch('bundle.enc', { cache: 'no-store' });
