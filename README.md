@@ -25,3 +25,9 @@ Azure Data Factory · Azure Databricks · PySpark · Delta Lake · ADLS Gen2 · 
 - 🐙 [GitHub](https://github.com/salman-khan-216/)
 
 Open to Azure Data Engineer roles — feel free to reach out.
+
+## Rights
+
+© 2026 Salman Khan Patan. All rights reserved.
+
+The content, design and code of this site are proprietary. No permission is granted to copy, modify or reuse any part of it without written permission.
